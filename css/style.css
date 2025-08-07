@@ -16,7 +16,7 @@ button {
   background-color: transparent;
   border: 2px solid goldenrod;
   color: white;
-   cursor:pointer;
+  cursor: pointer;
 }
 nav {
   background-color: transparent;
@@ -131,10 +131,10 @@ nav a {
 .header-text p {
   font-size: 25px;
 }
-.logo{
+.logo {
   color: white;
 }
-.logo img{
+.logo img {
   width: 80px;
 }
 @media screen and (min-width: 250px) and (max-width: 299px) {
@@ -206,7 +206,7 @@ nav a {
   .info {
     display: none;
   }
-  .header-bg{
+  .header-bg {
     height: 100%;
     padding-bottom: 50px;
   }
@@ -220,11 +220,11 @@ nav a {
     gap: 50px;
     font-family: "Fraunces";
   }
-   .header-bg{
+  .header-bg {
     height: 100%;
     padding-bottom: 50px;
   }
-    .info {
+  .info {
     display: none;
   }
 }
@@ -256,7 +256,7 @@ nav a {
   .nav-links ul {
     padding: 30px;
   }
-  .nav{
+  .nav {
     justify-content: space-between;
     padding: 0;
   }
@@ -285,7 +285,7 @@ nav a {
   padding: 20px;
 }
 
-.services-row img{
+.services-row img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -472,7 +472,7 @@ section .small {
   color: goldenrod;
 }
 .about-us-col {
-    width:90%;
+  width: 90%;
   display: flex;
   justify-content: center;
   margin: 50px auto;
@@ -483,7 +483,7 @@ section .small {
   font-size: 23px;
 }
 
-.about-us img{
+.about-us img {
   width: 450px;
   height: 450px;
 }
@@ -501,6 +501,9 @@ section .small {
     height: 100%;
     margin: auto;
   }
+  .about-us-col p {
+    font-size: 17px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 970px) {
@@ -508,7 +511,10 @@ section .small {
     padding: 80px 35px;
   }
   .about-us-col {
-   flex-direction: column;
+    flex-direction: column;
+  }
+  .about-us-col p {
+    font-size: 17px;
   }
 }
 
